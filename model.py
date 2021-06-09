@@ -15,13 +15,7 @@ def setup_model():
     """
     # initial architecture
     model = tf.keras.Sequential(
-        [
-            tf.keras.layers.Dense(128, activation=tf.nn.relu, input_shape=(200,)),
-            tf.keras.layers.Dense(64, activation=tf.nn.relu, input_shape=(128,)),
-            tf.keras.layers.Dense(32, activation=tf.nn.relu, input_shape=(64,)),
-            tf.keras.layers.Dense(8, activation=tf.nn.relu),
-            tf.keras.layers.Dense(2),
-        ]
+        [tf.keras.layers.Dense(64, activation=tf.nn.relu, input_shape=(128,)), tf.keras.layers.Dense(2),]
     )
     # compiling the model
     model.compile(
