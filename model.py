@@ -20,7 +20,7 @@ def setup_model():
             tf.keras.layers.Dense(64, activation=tf.nn.relu, input_shape=(128,)),
             tf.keras.layers.Dense(32, activation=tf.nn.relu, input_shape=(64,)),
             tf.keras.layers.Dense(8, activation=tf.nn.relu),
-            tf.keras.layers.Dense(2),
+            tf.keras.layers.Dense(4),
         ]
     )
     # compiling the model
