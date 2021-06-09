@@ -1,0 +1,10 @@
+# FOLDERS
+logs
+mlruns
+models
+
+# FILE TYPES
+*.csv
+*.h5
+.env
+

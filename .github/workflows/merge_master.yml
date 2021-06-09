@@ -1,0 +1,15 @@
+name: MasterMerge
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Regex Merge
+        uses: alagos/regex-merge@v1.1
+        with:
+          accessToken: ${{ secrets.GITHUB_TOKEN }}
+          headBranch: master
+          notifyConflicts: true
