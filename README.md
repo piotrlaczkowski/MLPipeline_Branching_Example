@@ -6,7 +6,7 @@ This model is a simple model allowing to setup some base code.
 
 ## Notes
 
-- only base architecture and core ad implemented...
+- only base architecture and core and implemented ...
 
 ## Todos:
 
