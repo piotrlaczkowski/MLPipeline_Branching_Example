@@ -6,4 +6,8 @@ This model is a deeper interpretation of the baseline one in order to catch mode
 
 ## Notes
 
-- in this approach we are going to add another layer to the base model.
+- only base architecture and core and implemented ...
+
+## Todos:
+
+- add some more code for envaluations
