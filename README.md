@@ -2,7 +2,7 @@
 
 ## Actual branch implementation
 
-This model is a simple model allowing to setup some base code.
+This model is a deeper interpretation of the baseline one in order to catch mode insights from the data ...
 
 ## Notes
 
