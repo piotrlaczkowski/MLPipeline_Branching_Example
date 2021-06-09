@@ -8,3 +8,6 @@ models
 *.h5
 .env
 
+.mypy_cache
+.github copy
+.isort.cfg
